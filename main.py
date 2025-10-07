@@ -1,4 +1,5 @@
 
+
 from lib import cuadrado, triangulo ,rectangulo , circunferencia
 print("Proyecto Figuras")
 print(cuadrado.get_identificador())
@@ -25,4 +26,7 @@ y el perímetro es:{rectangulo.get_perimetro(base,altura)}")
 radio = 5
 print(circunferencia.get_identificador())
 print(f"El resultado del area de la circunferencia de radio {radio} es {circunferencia.get_area(radio)}")
+
+
+print('Hola Mundo')
 
